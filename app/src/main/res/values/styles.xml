@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#D3D3D3</item>
+        <item name="colorPrimaryDark">#A9A9A9</item>
+        <item name="android:fontFamily">@font/qutar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="blink">
+
+        <item name="android:paddingBottom">20dp</item>
+
+    </style>
+
+    <style name="padding">
+
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">380dp</item>
+
+    </style>
+
+    <style name="textWidth">
+
+        <item name="android:layout_width">200dp</item>
+
+    </style>
+
+    <!--splash 화면에 사용될 테마-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+
+</resources>

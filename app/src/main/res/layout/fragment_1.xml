@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            >
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match0_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match0"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore0"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match1_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match1"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore1"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--레이아웃간 간격 띄어주기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/blink">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match2_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match2"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore2"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match3_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match3"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore3"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--레이아웃간 간격 띄어주기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/blink">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match4_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match4"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore4"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match5_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match5"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore5"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--레이아웃간 간격 띄어주기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/blink">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match6_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match6"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore6"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match7_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match7"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore7"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--레이아웃간 간격 띄어주기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/blink">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match8_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match8"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore8"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match9_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match9"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore9"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--레이아웃간 간격 띄어주기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/blink">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/layout_background"
+                android:layout_gravity="center"
+                style="@style/padding"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match10_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match10"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="30dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore10"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/match11_flag"
+                            android:paddingRight="20dp"
+                            />
+
+                        <TextView
+                            style="@style/textWidth"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match11"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="50dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/match_teamScore11"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
